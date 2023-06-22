@@ -2,7 +2,8 @@
 # AMP-Parkinson's Disease Progression Prediction
 # https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction
 
-kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
+# kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
+kaggle kernels pull gusthema/identifying-age-related-conditions-w-tfdf
 
 mkdir -p input/amp-parkinsons-disease-progression-prediction
 
