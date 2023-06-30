@@ -23,7 +23,13 @@
           "-workbench.action.terminal.goToRecentDirectory", //send ctrl+g to terminal and spacemacs (not go to recent directory)
           "-workbench.action.terminal.focusFind", //ctrl+f
           "-workbench.action.terminal.clear", //ctrl+k
-          "-workbench.action.terminal.quickOpen" //ctrl+p
+
+    // Ensure the toggle sidebar visibility keybinding skips the shell
+    "workbench.action.toggleSidebarVisibility",
+    // Send quick open's keybinding to the shell
+    "-workbench.action.quickOpen" //ctrl+p
+
+          // "-workbench.action.terminal.quickOpen" //ctrl+p
         ],
         "workbench.panel.opensMaximized": "always",
         "terminal.integrated.allowChords": false
