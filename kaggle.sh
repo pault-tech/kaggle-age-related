@@ -31,6 +31,10 @@ ls /kaggle/input/
 
 pip install --user nbconvert
 
+#NOTE: for jupytext conversion to work in spacemacs need to
+#Have an IPython notebook running
+jupyter notebook
+
 jupyter nbconvert --to python parkinson-s-disease-progression-prediction-w-tfdf.ipynb
 
 mkdir mykernel
@@ -57,7 +61,7 @@ kaggle kernels
 kaggle kernels output
 
 # pip install --user kaggle
-# pip install --user jupytext #sync ipynb .py files
+pip install --user jupytext #sync ipynb .py files; not sure this is required?
 
 type kaggle
 
