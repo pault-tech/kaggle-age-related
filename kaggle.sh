@@ -5,6 +5,8 @@
 # kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
 kaggle kernels pull gusthema/identifying-age-related-conditions-w-tfdf
 
+jupyter nbconvert --to python identifying-age-related-conditions-w-tfdf.ipynb
+
 mkdir -p input/amp-parkinsons-disease-progression-prediction
 
 cd input/amp-parkinsons-disease-progression-prediction
@@ -37,7 +39,9 @@ pip install --user nbconvert
 pip install --user jupytext #sync ipynb .py files; required for 
 jupyter notebook
 
-jupyter nbconvert --to python parkinson-s-disease-progression-prediction-w-tfdf.ipynb
+
+curl localhost:8888
+echo done
 
 mkdir mykernel
 kaggle kernels init --path mykernel
