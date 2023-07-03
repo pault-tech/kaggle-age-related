@@ -25,7 +25,7 @@
           "-workbench.action.terminal.clear", //ctrl+k
 
     // Ensure the toggle sidebar visibility keybinding skips the shell
-    "-workbench.action.toggleSidebarVisibility",
+    "-workbench.action.toggleSidebarVisibility", //ctrl+b
     // Send quick open's keybinding to the shell
     "-workbench.action.quickOpen" //ctrl+p
 
