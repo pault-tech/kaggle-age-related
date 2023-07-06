@@ -2,6 +2,11 @@
 # AMP-Parkinson's Disease Progression Prediction
 # https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction
 
+#NOTE: prefered method in spacemacs is to use python mode (dont enable ipython-notebook) and install jupytext
+pip install --user jupytext #sync ipynb .py files; required for 
+
+pip install --user kaggle
+
 # kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
 kaggle kernels pull gusthema/identifying-age-related-conditions-w-tfdf
 
@@ -66,7 +71,6 @@ kaggle kernels
 
 kaggle kernels output
 
-# pip install --user kaggle
 
 type kaggle
 
